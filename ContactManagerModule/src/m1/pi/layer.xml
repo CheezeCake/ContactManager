@@ -27,5 +27,6 @@
             <file name="m1-pi-ContactWizardAction.shadow_hidden"/>
             <file name="org-openide-actions-SaveAllAction.shadow_hidden"/>
         </folder>
+        <file name="UndoRedo_hidden"/>
     </folder>
 </filesystem>

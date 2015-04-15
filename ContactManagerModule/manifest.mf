@@ -3,5 +3,6 @@ AutoUpdate-Show-In-Client: true
 OpenIDE-Module: m1.pi
 OpenIDE-Module-Layer: m1/pi/layer.xml
 OpenIDE-Module-Localizing-Bundle: m1/pi/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
 OpenIDE-Module-Specification-Version: 1.0
 
