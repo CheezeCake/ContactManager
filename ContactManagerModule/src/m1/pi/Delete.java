@@ -20,7 +20,7 @@ import org.openide.util.NbBundle.Messages;
         iconBase = "m1/pi/person_delete-128.png",
         displayName = "#CTL_Delete"
 )
-@ActionReference(path = "Toolbars/File", position = 100)
+@ActionReference(path = "Toolbars/File", position = 300)
 @Messages("CTL_Delete=Delete")
 public final class Delete implements ActionListener {
 

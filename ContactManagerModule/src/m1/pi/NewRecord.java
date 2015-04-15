@@ -17,10 +17,10 @@ import org.openide.util.NbBundle.Messages;
         id = "m1.pi.NewRecord"
 )
 @ActionRegistration(
-        iconBase = "m1/pi/Add_Friend-128.png",
+        iconBase = "m1/pi/Add_Friend.png",
         displayName = "#CTL_NewRecord"
 )
-@ActionReference(path = "Toolbars/File", position = 300)
+@ActionReference(path = "Toolbars/File", position = 100)
 @Messages("CTL_NewRecord=NewRecord")
 public final class NewRecord implements ActionListener {
 

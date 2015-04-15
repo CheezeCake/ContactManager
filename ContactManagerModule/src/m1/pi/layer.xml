@@ -9,11 +9,18 @@
     <folder name="Menu">
         <file name="BuildProject_hidden"/>
         <folder name="File">
+            <file name="Separator4.instance_hidden"/>
             <file name="m1-pi-Open.shadow">
                 <attr name="originalFile" stringvalue="Actions/File/m1-pi-Open.instance"/>
                 <attr name="position" intvalue="1200"/>
             </file>
+            <file name="org-netbeans-modules-print-action-PageSetupAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-print-action-PrintAction.shadow_hidden"/>
         </folder>
+        <file name="GoTo_hidden"/>
+        <file name="Tools_hidden"/>
+        <file name="View_hidden"/>
+        <file name="Window_hidden"/>
     </folder>
     <folder name="Toolbars">
         <folder name="File">
