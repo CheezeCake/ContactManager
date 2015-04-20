@@ -5,7 +5,9 @@
  */
 package m1.pi;
 
+import java.awt.Color;
 import javax.swing.JPanel;
+import javax.swing.UIManager;
 import org.jdesktop.beansbinding.AbstractBindingListener;
 import org.jdesktop.beansbinding.Binding;
 
@@ -19,10 +21,16 @@ public final class ContactVisualPanel1 extends JPanel {
         bindingGroup.addBindingListener(new AbstractBindingListener() {
             @Override
             public void syncFailed(Binding binding, Binding.SyncFailure failure) {
+                if (binding.getTargetObject() == jTextField3) {
+                    jTextField3.setForeground(Color.red);
+                }
             }
             
             @Override
             public void synced(Binding binding) {
+                if (binding.getTargetObject() == jTextField3) {
+                    jTextField3.setForeground(UIManager.getColor("Textfield.foreground"));
+                }
             }
         });
     }
